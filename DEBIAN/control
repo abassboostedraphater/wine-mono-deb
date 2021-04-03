@@ -1,6 +1,6 @@
 Package: wine-mono
-Version: 5.0.0
+Version: x.x.x
 Description: Windows .NET runtime for Wine. This is not official and is not supported by the developers of wine in any way. For any version because all Wine builds support any version of mono. Wine looks for an msi of wine mono in opt/wine/mono/mono-version. This package was created so it could make those directories and put the msi inside them. This will most likely work because installing this package is like putting the msi in that directory manually. Plugin installations like Mono or Gecko will not always show up in wine64 uninstaller. You have to open it a few times to make it show there.
-Maintainer: abassboostedraphater
+Maintainer: poo
 Architecture: i386
 Installed-Size:77764

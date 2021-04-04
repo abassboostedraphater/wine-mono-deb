@@ -1,6 +1,6 @@
 here is where mono builds are stored if you wanna add a wine build download the repository as zip an extract it in your home folder after that go to 
 /home/username/wine-mono-deb-main/opt/wine/mono/ and create a folder for your wine version called "wine-mono-x.x.x" and put your wine mono msi in but dont rename 
 it and make sure the x.x.x on the folder matches the version in the name of the msi after that go in /home/username/wine-mono-deb-main/DEBIAN/ and open control in 
-your text editing program after that you see the version is "5.0.0" rename it to the version you put in and if you have more than one version inside just rename it
+your text editing program after that you see the version is blank type in the version you put in and if you have more than one version inside just rename it
 to the latest version you put in and then open the terminal and run "dpkg-deb --build wine-mono-deb-main" and
 then open the deb in your package installer 
